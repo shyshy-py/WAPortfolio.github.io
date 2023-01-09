@@ -13,15 +13,17 @@
     <link href="https://fonts.cdnfonts.com/css/kaorigel" rel="stylesheet" />
     <link rel="stylesheet"  href="style.css" />
     <link rel="stylesheet" href="/main.js" />
-    <link rel="stylesheet" href="/animation.css">
+    <link rel="stylesheet" href="/Portfolio/animation.css">
    
   </head>
   <body class="body1" >
 
-<!--first section-->
-<section id="sectp" class="slideIn" ></div>>
+<!--intro section-->
+<section id="sectp" style="background-image: url(/Portfolio/assets/Hi_Bingus.jpg); background-size: cover;" class="slideIn" >
 
-      <div >
+
+
+      <div class="container" >
         <div class="name" >
         <h1>Wladimir Acevedo Norambuena ウラディミル</h1>
         <h2>Desarrollador Web</h2>
@@ -35,38 +37,8 @@
       </div>
     </div>
   </div>
-<br><br><br>
-    </section>
-    <br><br><br>
-     <section>
-      <div class="container rounded">
-                
-        <div class="grid text-center">
-          <div class="g-col-6"><center>
-            <div id="btn-text">
-            <button
-              class="btn btn-outline-secondary btn-lg"
-              onclick="animateText(textExample)">
-            click<3!
-            </button>
-          </div></center></div>
-      <div id="textarea" style="color: aqua;" >
-        <textarea  disabled class="rounded" id="textExample" > </textarea>
-      </div>
 
-
-
-      
-    </div>
-  </div>
-</div>
-
-     </section>             
-              
-
-     <!--Second Section-->
-                
-     <center>
+<center>
       <div id="btnHide" style="padding-top: 25%; " >
         <h3 >Prueba encender la luz</h3>
         <a  class="btn-neon" onclick="hide()">
@@ -80,18 +52,28 @@
       </div>
     </center>
       
-      <div id="m" class="slideIn" hidden>
+      
+
+
+
+
+    </section>
+    <div id="m" class="slideIn" hidden>
       
       <center>
       <div class="container">
       <video class="slideIn col-md-12"
-        src="/assets/images/me-back.mp4"
+        src="/Portfolio/assets/images/me-back.mp4"
         autoplay="true"
         muted="true"
         loop="true"
       ></video>
       </div>
     </center>
+        
+     <!--Second Section-->
+                
+     
     <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600px" height="100px" viewBox="0 0 600 100">
       <style type="text/css">
         <![CDATA[
@@ -152,6 +134,11 @@
      
       
     </svg>
+
+
+
+
+    <!--Portafolio-->>
   
       <section id="sect1" class="sect">
        <div class="container">
@@ -179,14 +166,14 @@
             <h2 style="color: black;"></h2>
             <center>
             <div>
-              <img style="display: inline-block; width: auto; height: auto;" src="/assets/ico/python.png"  />
-              <img style="display: inline-block; width: auto; height: auto;" src="/assets/ico/django.png"  />
+              <img style="display: inline-block; width: auto; height: auto;" src="/Portfolio/assets/ico/python.png"  />
+              <img style="display: inline-block; width: auto; height: auto;" src="/Portfolio/assets/ico/django.png"  />
             </div>
             <div>
-              <img style="display: inline-block; width: auto; height: auto;" src="/assets/ico/html.png"  />
-              <img style="display: inline-block; width: auto; height: auto;" src="/assets/ico/js.png"  />
-              <img style="display: inline-block; width: auto; height: auto;" src="/assets/ico/css.png"  />
-              <img style="display: inline-block; width: auto; height: auto;" src="/assets/ico/plsql.png"  />
+              <img style="display: inline-block; width: auto; height: auto;" src="/Portfolio/assets/ico/html.png"  />
+              <img style="display: inline-block; width: auto; height: auto;" src="/Portfolio/assets/ico/js.png"  />
+              <img style="display: inline-block; width: auto; height: auto;" src="/Portfolio/assets/ico/css.png"  />
+              <img style="display: inline-block; width: auto; height: auto;" src="/Portfolio/assets/ico/plsql.png"  />
             </div>
           </center>
             
@@ -225,6 +212,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="main.js"></script>
+    <script src="/Portfolio/main.js"></script>
   </body>
 </html>
