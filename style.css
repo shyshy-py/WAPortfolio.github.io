@@ -6,12 +6,16 @@ body{
 }
 
 .body1{
-    background-image: url(/assets/images/fondoestetic.jpg);
+  background-color: black;
     background-size: relative;
     background-position:center;
     background-repeat: repeat;
     
    
+}
+
+.section{
+  display: flex;
 }
 
 .c1{
