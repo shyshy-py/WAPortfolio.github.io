@@ -11,65 +11,125 @@
       crossorigin="anonymous"
     />
     <link href="https://fonts.cdnfonts.com/css/kaorigel" rel="stylesheet" />
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+  rel="stylesheet"
+  /><link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+  />
+  <!-- Google Fonts -->
+  <link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+  />
     <link rel="stylesheet"  href="/WAPortfolio.github.io/style.css" />
-    <link rel="stylesheet" href="main.js" />
+    <link rel="stylesheet" href="/WAPortfolio.github.io/main.js" />
     <link rel="stylesheet" href="/WAPortfolio.github.io/animation.css">
    
   </head>
-  <body class="body1" >
+  <body onload="auto()" >
 
 <!--intro section-->
-<section id="sectp" style="background-image: url(assets/Hi_Bingus.jpg); background-size: cover;" class="slideIn" >
+
+
+
+<div class="container" style="background: url(/WAPortfolio.github.io/assets/images/Fondo6.mp4);">
+  <div class="row" >
+    <div id="sectp" class=" slideIn"  >
 
 
 
       <div class="container" >
-        <div class="name" >
-        <h1>Wladimir Acevedo Norambuena ウラディミル</h1>
-        <h2>Desarrollador Web</h2>
+        <div class="row">
+          <div class="col-md-12 name" >
+            <h2>Wladimir Acevedo Norambuena ウラディミル</h2>
+            <h3>Desarrollador Web</h3>
+          </div>
         
-      </div>
-    </div>
-    <div >
-      <div class="name" >
+        <div class="row">
+      <div class="col-md-12 name" >
         <h1>ウェブデザイン</h1>
         <h2 >UX/UI Desing</h2>
+        <br><br><br><br>
       </div>
-    </div>
+      
+      <div id="btnHide col-md-2"  >
+      <div class="row">
+       
+      </div>
+           
+      <div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+      </div >
+      </div>
   </div>
-
-<center>
-      <div id="btnHide" style="padding-top: 25%; " >
-        <h3 >Prueba encender la luz</h3>
-        <button style="background-color: transparent;" class="btn-neon" onclick="hide()">
-          <span id="span1"></span>
-          <span id="span2"></span>
-          <span id="span3"></span>
-          <span id="span4"></span>
-          Encender
-        </button>      
+</div>
+<center><div>
+  <a  class="btn-neon col-md-2" onclick="hide()">
+    <span id="span1"></span>
+    <span id="span2"></span>
+    <span id="span3"></span>
+    <span id="span4"></span>
+    
+              bienvenido
+</a>  
+</div></center>
   
+
+      
+    
+  </div>
+</div>
+
+<div>
+
+<div id="m" class="container slideIn" hidden>
+<video class="video" src="/WAPortfolio.github.io/assets/images/FONDO 11.mp4" autoplay muted loop></video>
+<div class="row"></div>
+
+  
+  <br><br>
+
+
+  
+
+
+      <div class="row">
+
+        <div class="sect3" style="background-color: rgba(131, 131, 131, 0.63);"">
+          <g>
+            <text x="0" y="100" style="color: black;">Sobre mi</text>
+          </g>
+
+          <p style="color: black;">Hola soy Wladimir, Analista programador egresado del Instituto Profesional Duoc Uc en Santiago CL</p>
+          <p>Mi pasión por la informatica comenzó desde muy pequeño, siempre con la curiosidad de saber como funcionan las "cosas"</p>
+          <p>Por cosas de la vida cursé la carrera de psicología durante 3 años, pero decidi que simplemente 
+            lo mio estaba en el rubro informatico, aunque gracias a la psicologia pude obtener otro tipo de habilidades blandas, las que en un futuro podría complementar con mis futuros intereses laborales</p>
+
+
+
+        </div>
+
+        <div>
+          
+
+
+        </div>
+
       </div>
-    </center>
-      
-      
-
-
-
-
-    </section>
-    <div id="m" class="slideIn" hidden>
-      
-      <center>
-      <div class="container">
-      <video class="slideIn col-md-12"
-        src="/WAPortfolio.github.io/assets/images/me-back.mp4"
-        autoplay="true"
-        muted="true"
-        loop="true"
-      ></video>
-      </div>
-    </center>
+    
         
      <!--Second Section-->
                 
@@ -90,8 +150,8 @@
       <defs>
     
         <filter id="filter">
-          <feFlood flood-color="#7520c58f" result="black" />
-          <feFlood flood-color="#58585885" result="flood1" />
+          <feFlood flood-color="#9292923b" result="black" />
+          <feFlood flood-color="#9292926b" result="flood1" />
           <feFlood flood-color="black" result="flood2" />
           <feOffset in="SourceGraphic" dx="3" dy="0" result="off1a" />
           <feOffset in="SourceGraphic" dx="2" dy="0" result="off1b" />
@@ -138,80 +198,184 @@
 
 
 
-    <!--Portafolio-->>
-  
-      <section id="sect1" class="sect">
-       <div class="container">
-        
-      <div class="col-md-6">
-        <g>
-          <text x="0" y="100" style="color: black;">Sobre mi</text>
-        </g>
-        <p style="color: black;">Hola soy Wladimir, Analista programador egresado del Instituto Profesional Duoc Uc en Santiago CL</p>
-        <p>Mi pasion por la informatica comenzo desde muy pequeño, siempre con la curiosidad de saber como funcionan las "cosas"</p>
-        <p>Por cosas de la vida cursé la carrera de psicología durante 3 años, pero decidi que simplemente 
-          lo mio estaba en el rubro informatico, aunque gracias a la psicologia pude obtener otro tipo de habilidades blandas como las habilidades comunicacionales
-          y de redaccion, las que que en un futuro podría complementar con mis futuros estudios</p>
-       </div>
-      </div>
-     
-      </section>
-      
-      <section id="sect2" class="sect">
-        <div class="container">
-          <div class="col-md-6" > 
-            <g>
-              <text x="0" y="100" style="color:black">Skills</text>
-            </g>       
-            <h2 style="color: black;"></h2>
-            <center>
-            <div>
-              <img style="display: inline-block; width: auto; height: auto;" src="/assets/ico/python.png"  />
-              <img style="display: inline-block; width: auto; height: auto;" src="/assets/ico/django.png"  />
-            </div>
-            <div>
-              <img style="display: inline-block; width: auto; height: auto;" src="/assets/ico/html.png"  />
-              <img style="display: inline-block; width: auto; height: auto;" src="/assets/ico/js.png"  />
-              <img style="display: inline-block; width: auto; height: auto;" src="/assets/ico/css.png"  />
-              <img style="display: inline-block; width: auto; height: auto;" src="/assets/ico/plsql.png"  />
-            </div>
-          </center>
+    <!--Portafolio-->
+<div class="row">
+        <div class="col-md-6">
+
+          <g>
+            <text x="0" y="100" style="color:black">Skills</text>
+          </g>       
+          <br><br><br>
+          <center>
+            <div class="row" id="skills">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="/WAPortfolio.github.io/assets/ico/python.png"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                />
             
-    </div>
-        </div>
-     
-      <section id="sect1" class="sect">
-      <div class="container">
+                <img
+                  src="/WAPortfolio.github.io/assets/ico/django.png"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                />
+              </div>
+            
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="/WAPortfolio.github.io/assets/ico/html.png"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                />
+            
+                <img
+                  src="/WAPortfolio.github.io/assets/ico/css.png"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                />
+              </div>
+            
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="/WAPortfolio.github.io/assets/ico/js.png"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                />
+            
+                <img
+                  src="/WAPortfolio.github.io/assets/ico/mysql.png"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                />
+
+                <img
+                  src="/WAPortfolio.github.io/assets/ico/git.png"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                />
+              </div>
+                
+              </div>
+            </div>
+
+
+
+
+
+
+
+         
+      <br><br><br>
+      <div class="row">
         <div class="col-md-6">
           <g>
-          <text x="0" y="100" > Proyectos </text>
-          </g>
+            <text x="0" y="100" > Proyectos </text>
+            </g>
         </div>
-      </div>
-      </section>
-  
-    </div>
-    
-                    
-               
-                
-              
-              
-              
-              
-          
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card card text-white bg-secondary mb-3">
+              <img src="" class="card-img-top" alt="">
+              <div class="card-body">
+                <h1 class="card-title">Proyecto 1 </h1>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptas veritatis debitis accusamus vero temporibus, distinctio vel ex commodi deserunt laboriosam laborum maiores voluptatum vitae consequatur sapiente dicta quas quasi.</p>
+                <a href="" class="btn btn-light" > Ir a Repo </a>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="" class="card-img-top" alt="">
+              <div class="card-body">
+                <h1 class="card-title">Proyecto 2</h1>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptate, illo, similique sequi reprehenderit provident soluta fugit a nobis modi magni. Eos fugit ratione sit non nam quod, officiis laboriosam.</p>
+                <a href="" class="btn btn-secondary"> Ir a Repo </a>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-white bg-secondary mb-3">
+              <img src="" class="card-img-top" alt="">
+              <div class="card-body">
+                <h1 class="card-title">Proyecto 3</h1>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsum itaque hic, temporibus harum iste dicta ipsa fuga odio, animi architecto id ad maiores et. Magni voluptatem eum earum consectetur!</p>
+                <a href="" class="btn btn-light"> Ir a Repo </a>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="" class="card-img-top" alt="">
+              <div class="card-body">
+                <h1 class="card-title">Proyecto 4</h1>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aliquam nemo suscipit impedit nihil nesciunt distinctio modi vero, pariatur molestias voluptatum, facilis doloremque? Officia, alias beatae voluptas perferendis vitae ex.</p>
+                <a href="" class="btn btn-secondary"> Ir a Repo </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+        <!--Contacto-->>
+        
+      <br><br><br>
+
+
 
         
           
 
-  
+      </div>
+      <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h2><i class="fas fa-business-time"></i> Contacto</h2>
+                    
+                    </div>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="" class="nav-link pl-0"><span class="fab fa-facebook fa-3x"></span></a></li>
+                        <li class="nav-item"><a href="https://github.com/shyshy-py" class="nav-link"><i class="fab fa-github fa-3x"></i></a></li>
+                        <li class="nav-item"><a href="https://www.instagram.com/nonevlvdimir/" class="nav-link"><i class="fab fa-instagram fa-3x"></i></a></li>
+                        <li class="nav-item"><a href="http://www.linkedin.com/in/wladimir-acevedo-dev" class="nav-link"><i class="fab fa-linkedin fa-3x"></i></a></li>
+                    </ul>
+                    <br>
+                </div>
+
+                <br><br>
+                <h3>Enviar correo</h3>
+
+                <form action="https://formsubmit.co/wladimir.acevedo.237@gmail.com" method="POST">
+                  <fieldset class="form-group" >
+                      <input name="email" type="email" class="form-control" placeholder="Ingresar Correo" required>
+                  </fieldset><br>
+                  <fieldset class="form-group">
+                      <input name="subject" type="text" class="form-control" placeholder="Asunto" required>
+                  </fieldset><br>
+                  <fieldset class="form-group">
+                      <textarea name="comments" class="form-control" placeholder="Mensaje" required></textarea>
+                  </fieldset><br>
+                  <fieldset class="form-group text-xs-right">
+                      <button type="submit" class="btn btn-secondary btn-lg">Enviar</button>
+                  </fieldset>
+              </form>
+                
+            </div>
+        </div>
+    </footer>
+      <br>
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="/WAPortfolio.github.io/main.js"></script>
+    <script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
+></script>
   </body>
 </html>
