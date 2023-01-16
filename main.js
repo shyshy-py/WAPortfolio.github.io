@@ -16,7 +16,7 @@ function auto (){
 
   if (screen.width<550)
   $('#m').addClass("enjoy"),
-  $(".video").attr("src","/assets/images/Fondo7.mp4"),
+  $(".video").attr("src","/WAPortfolio.github.io/assets/images/Fondo7.mp4"),
   $('h1').addClass("fl");
   $('text').css("color","white");
   
