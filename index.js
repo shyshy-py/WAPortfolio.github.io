@@ -16,7 +16,7 @@ window.addEventListener("click", function (event) {
 function renderContent(path) {
   switch (path) {
     case "/about":
-      contentDiv.innerHTML = ` <div class="fade-in container d-flex justify-content-center align-items-center">
+      content.innerHTML = ` <div class="fade-in container d-flex justify-content-center align-items-center">
         <div class="row">
           <div class="col-md-6">
             <h2>Wladimir Acevedo Norambuena</h2>
@@ -76,7 +76,7 @@ function renderContent(path) {
       </div>`;
       break;
     case "/project":
-      contentDiv.innerHTML = ` 
+      content.innerHTML = ` 
 
         <div
             id="carouselExampleRide"
@@ -203,7 +203,7 @@ function renderContent(path) {
           </div>`;
       break;
     case "/contact":
-      contentDiv.innerHTML = `<div class="container my-5">
+      content.innerHTML = `<div class="container my-5">
         <h3 class="text-center mb-4">Formulario de Contacto</h3>
   
         <form action="https://formspree.io/f/xvonrzzk" method="POST">
