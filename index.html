@@ -1,360 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width"/>
-    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="/WAPortfolio.github.io/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.cdnfonts.com/css/kaorigel" rel="stylesheet" />
-    <link
-  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
-  rel="stylesheet"
-  /><link
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-  rel="stylesheet"
-  />
-  <!-- Google Fonts -->
-  <link
-  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-  rel="stylesheet"
-  />
-    <link rel="stylesheet"  href="/WAPortfolio.github.io/style.css" />
-    <link rel="stylesheet" href="/WAPortfolio.github.io/main.js" />
-    <link rel="stylesheet" href="/WAPortfolio.github.io/animation.css">
-   
   </head>
-  <body onload="auto()" >
-
-<!--intro section-->
-
-
-
-<div class="container" style="background: url(/WAPortfolio.github.io/assets/images/Fondo6.mp4);">
-  <div class="row" >
-    <div id="sectp" class=" slideIn"  >
-
-
-
-      <div class="container" >
-        <div class="row">
-          <div class="col-md-12 name" >
-            <h2>Wladimir Acevedo Norambuena ウラディミル</h2>
-            <h3>Desarrollador Web</h3>
-          </div>
-        
-        <div class="row">
-      <div class="col-md-12 name" >
-        <h1>ウェブデザイン</h1>
-        <br><br><br><br>
-      </div>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-transparent navbar-light">
       
-      <div id="btnHide col-md-2"  >
-      <div class="row">
+      <div class="container-fluid">
        
-      </div>
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="#/about"
+                >Sobre mi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="#/project"
+                >Proyectos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="#/contact"
+                >Contacto</a
+              >
+            </li>
+          
+          </ul>
+        </div>
+        <div class="icons">
+          <span
+            ><a href="https://github.com/shyshy-py" class="bi-github" style="font-size: 2rem; color: rgb(255, 255, 255);"></a> 
            
-      <div class="area" >
-        <ul class="circles">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-        </ul>
-      </div >
+            <a href="https://www.linkedin.com/in/wladimir-acevedo-dev/" class="bi-linkedin" style="font-size: 2rem; color: rgb(255, 255, 255);"></a>
+          </span>
+        </div>
       </div>
-  </div>
-</div>
-<center><div>
-  <a  class="btn-neon col-md-2" onclick="hide()">
-    <span id="span1"></span>
-    <span id="span2"></span>
-    <span id="span3"></span>
-    <span id="span4"></span>
-    
-              bienvenido
-</a>  
-</div></center>
-  
-
       
+    </nav>
+
+    <main>
+      <div id="content"></div>
+    </main>
+
     
-  </div>
-</div>
 
-<div>
+    <footer
+      class="text-center text-white"
+      style="background-color: #00000000"
+    ></footer>
 
-<div id="m" class="container slideIn" hidden>
-<video class="video" src="/WAPortfolio.github.io/assets/images/FONDO11.mp4" autoplay muted loop></video>
-<div class="row"></div>
-
-  
-  <br><br>
-
-
-  
-
-
-      <div class="row">
-
-        <div class="sect3" style="background-color: rgba(131, 131, 131, 0.63);"">
-          <g>
-            <text x="0" y="100" style="color: black;">Sobre mi</text>
-          </g>
-
-          <p style="color: black;">Hola soy Wladimir, Analista programador egresado del Instituto Profesional Duoc Uc en Santiago CL</p>
-          <p>Por cosas de la vida cursé la carrera de psicología durante 3 años, pero decidi que simplemente 
-            lo mio estaba en el rubro informatico, aunque gracias a la psicologia pude obtener otro tipo de habilidades blandas, las que en un futuro podría complementar con mis futuros intereses laborales</p>
-
-
-
-        </div>
-
-        <div>
-          
-
-
-        </div>
-
-      </div>
-    
-        
-     <!--Second Section-->
-                
-     
-    <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600px" height="100px" viewBox="0 0 600 100">
-      <style type="text/css">
-        <![CDATA[
-        text {
-          filter: url(#filter);
-          fill: rgb(255, 255, 255);
-          font-family: 'Share Tech Mono', sans-serif;
-          font-size: 100px;
-          -webkit-font-smoothing: antialiased;
-          -moz-osx-font-smoothing: grayscale;
-        }
-        ]]>
-      </style>
-      <defs>
-    
-        <filter id="filter">
-          <feFlood flood-color="#9292923b" result="black" />
-          <feFlood flood-color="#9292926b" result="flood1" />
-          <feFlood flood-color="black" result="flood2" />
-          <feOffset in="SourceGraphic" dx="3" dy="0" result="off1a" />
-          <feOffset in="SourceGraphic" dx="2" dy="0" result="off1b" />
-          <feOffset in="SourceGraphic" dx="-3" dy="0" result="off2a" />
-          <feOffset in="SourceGraphic" dx="-2" dy="0" result="off2b" />
-          <feComposite in="flood1" in2="off1a" operator="in" result="comp1" />
-          <feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
-    
-          <feMerge x="0" width="100%" result="merge1">
-            <feMergeNode in="black" />
-            <feMergeNode in="comp1" />
-            <feMergeNode in="off1b" />
-    
-            <animate attributeName="y" id="y" dur="4s" values='104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px' keyTimes='0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1' repeatCount="indefinite" />
-    
-            <animate attributeName="height" id="h" dur="4s" values='10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px' keyTimes='0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1' repeatCount="indefinite" />
-          </feMerge>
-    
-          <feMerge x="0" width="100%" y="60px" height="65px" result="merge2">
-            <feMergeNode in="black" />
-            <feMergeNode in="comp2" />
-            <feMergeNode in="off2b" />
-    
-            <animate attributeName="y" id="y" dur="4s" values='103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;' keyTimes='0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1' repeatCount="indefinite" />
-    
-            <animate attributeName="height" id="h" dur="4s" values='0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px' keyTimes='0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1' repeatCount="indefinite" />
-          </feMerge>
-    
-          <feMerge>
-            <feMergeNode in="SourceGraphic" />
-    
-            <feMergeNode in="merge1" />
-            <feMergeNode in="merge2" />
-    
-          </feMerge>
-        </filter>
-    
-      </defs>
-    
-     
-      
-    </svg>
-
-
-
-
-    <!--Portafolio-->
-<div class="row">
-        <div class="col-md-6">
-
-          <g>
-            <text x="0" y="100" style="color:black">Skills</text>
-          </g>       
-          <br><br><br>
-          <center>
-            <div class="row" id="skills">
-  <div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <img src="/WAPortfolio.github.io/assets/ico/python.png" class="w-100 h-auto shadow-1-strong rounded mb-4" />
-    <img src="/WAPortfolio.github.io/assets/ico/django.png" class="w-100 h-auto shadow-1-strong rounded mb-4" />
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <img src="/WAPortfolio.github.io/assets/ico/html.png" class="w-100 h-auto shadow-1-strong rounded mb-4" />
-    <img src="/WAPortfolio.github.io/assets/ico/css.png" class="w-100 h-auto shadow-1-strong rounded mb-4" />
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <img src="/WAPortfolio.github.io/assets/ico/js.png" class="w-100 h-auto shadow-1-strong rounded mb-4" />
-    <img src="/WAPortfolio.github.io/assets/ico/angular.png" class="w-100 h-auto shadow-1-strong rounded mb-4" />
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0 text-center">
-    <img src="/WAPortfolio.github.io/assets/ico/git.png" class="w-100 h-auto shadow-1-strong rounded mb-4" />
-    <img alt="sqlite" src="/WAPortfolio.github.io/assets/ico/sqlite.png" class="w-100 h-auto shadow-1-strong rounded mb-4" />
-  </div>
-</div>
-
-
-
-
-
-
-
-         
-      <br><br><br>
-      <div class="row">
-        <div class="col-md-4">
-          <g>
-            <text x="0" y="100" > Proyectos </text>
-            </g>
-        </div>
-
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-          <div class="col">
-            <div class="card card text-white bg-secondary mb-3">
-              <img src="" class="card-img-top" alt="">
-              <div class="card-body">
-                <img class="card-img-top" src="/WAPortfolio.github.io/assets/ico/pokeapp.JPG" alt="Card image cap">
-                <h1 class="card-title">PokeAPP en Angular </h1>
-                <p class="card-text">Aplicación que simula una pokedex en la que se puede consultar pokemones. 
-                  Esta app esta desarrollada con Angular y los datos son extraidos a traves de PokeApi</p>
-                  <p>Host Firebase</p>
-                <a href="https://github.com/shyshy-py/pokeapp-angular" class="btn btn-light" > Ir a Repo </a>
-                <a href="https://pokeapp-angular.web.app/#/home" class="btn btn-light" >Demo </a>
-
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="" class="card-img-top" alt="">
-              <div class="card-body">
-                <h1 class="card-title">Proyecto 2</h1>
-                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptate, illo, similique sequi reprehenderit provident soluta fugit a nobis modi magni. Eos fugit ratione sit non nam quod, officiis laboriosam.</p>
-                <a href="" class="btn btn-secondary"> Ir a Repo </a>
-
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card text-white bg-secondary mb-3">
-              <img src="" class="card-img-top" alt="">
-              <div class="card-body">
-                <h1 class="card-title">Proyecto 3</h1>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsum itaque hic, temporibus harum iste dicta ipsa fuga odio, animi architecto id ad maiores et. Magni voluptatem eum earum consectetur!</p>
-                <a href="" class="btn btn-light"> Ir a Repo </a>
-
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="" class="card-img-top" alt="">
-              <div class="card-body">
-                <h1 class="card-title">Proyecto 4</h1>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aliquam nemo suscipit impedit nihil nesciunt distinctio modi vero, pariatur molestias voluptatum, facilis doloremque? Officia, alias beatae voluptas perferendis vitae ex.</p>
-                <a href="" class="btn btn-secondary"> Ir a Repo </a>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      
-
-        <!--Contacto-->>
-        
-      <br><br><br>
-
-
-
-        
-          
-
-      </div>
-      <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <h2><i class="fas fa-business-time"></i> Contacto</h2>
-                    
-                    </div>
-                    <ul class="nav">
-                        <li class="nav-item"><a href="" class="nav-link pl-0"><span class="fab fa-facebook fa-3x"></span></a></li>
-                        <li class="nav-item"><a href="https://github.com/shyshy-py" class="nav-link"><i class="fab fa-github fa-3x"></i></a></li>
-                        <li class="nav-item"><a href="https://www.instagram.com/nonevlvdimir/" class="nav-link"><i class="fab fa-instagram fa-3x"></i></a></li>
-                        <li class="nav-item"><a href="http://www.linkedin.com/in/wladimir-acevedo-dev" class="nav-link"><i class="fab fa-linkedin fa-3x"></i></a></li>
-                    </ul>
-                    <br>
-                </div>
-
-                <br><br>
-                <h3>Enviar correo</h3>
-
-                <form action="https://formsubmit.co/wladimir.acevedo.237@gmail.com" method="POST">
-                  <fieldset class="form-group" >
-                      <input name="email" type="email" class="form-control" placeholder="Ingresar Correo" required>
-                  </fieldset><br>
-                  <fieldset class="form-group">
-                      <input name="subject" type="text" class="form-control" placeholder="Asunto" required>
-                  </fieldset><br>
-                  <fieldset class="form-group">
-                      <textarea name="comments" class="form-control" placeholder="Mensaje" required></textarea>
-                  </fieldset><br>
-                  <fieldset class="form-group text-xs-right">
-                      <button type="submit" class="btn btn-secondary btn-lg">Enviar</button>
-                  </fieldset>
-              </form>
-                
-            </div>
-        </div>
-    </footer>
-      <br>
-
-
+    <script src="/WAPortfolio.github.io/index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="/WAPortfolio.github.io/main.js"></script>
-    <script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
-></script>
   </body>
 </html>
