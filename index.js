@@ -1,7 +1,6 @@
 // Obtener el elemento del botón de hamburguesa y el menú
-let navbarToggler = document.querySelector(".navbar-toggler");
-let navbarMenu = document.querySelector(".navbar-collapse");
-
+var navbarToggler = document.querySelector(".navbar-toggler");
+var navbarMenu = document.querySelector(".navbar-collapse");
 window.addEventListener("click", function (event) {
   // Si se hace clic en cualquier lugar fuera del menú y del botón de hamburguesa, cerrar el menú
   if (
@@ -10,16 +9,11 @@ window.addEventListener("click", function (event) {
   ) {
     navbarToggler.classList.remove("show");
     navbarMenu.classList.remove("show");
+    document.getElementById("destroy").style.display ="none";
   }
 });
 
 function renderContent(path) {
-  let destroy = document.getElementById("destroy")
-  destroy.style.display="none"
-  const contentDiv = document.getElementById("content");
-  
-  
-
   switch (path) {
     case "/about":
       contentDiv.innerHTML = ` <div class="fade-in container d-flex justify-content-center align-items-center">
