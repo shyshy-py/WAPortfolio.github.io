@@ -169,7 +169,7 @@ function renderContent(path) {
                       Desarrollado con HTML,CSS y JS puro 
                     </p>
                     <p>
-                      Simulación de SPA con js puro, hosteadoen github pages para una mayor facilidad a la hora de realizar constantes
+                      Simulación de SPA con js puro, hosteado en github pages para una mayor facilidad a la hora de realizar cambios constantes
                     </p>
                   
                     <a
